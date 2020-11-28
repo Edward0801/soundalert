@@ -1,0 +1,18 @@
+{
+  "short_name": "sound1",
+  "name": "sound1",
+  "description": "Ver un ejemplo en clase",
+  "icons": [
+    {
+        "src": "assets/img/logo.png",
+        "type": "image/png",
+        "sizes": "69x69"
+    }
+  ],
+  "start_url": "index.html",
+  "background_color": "#3498db",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#3498db",
+  "orientation": "portrait"
+  }

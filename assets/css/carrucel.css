@@ -1,0 +1,78 @@
+body{
+  background-color: #52b65a;
+  font-family: sans-serif;
+}
+
+.home{
+  margin: auto;
+  background-color: white;
+  width: 800px;
+  padding: 30px;
+}
+
+ol, li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+ol.slider{
+  position: relative;
+  width: 800px;
+  height: 300px;
+}
+
+ol.slider li {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    opacity: 0;
+    width: inherit;
+    height: inherit;
+    transition: opacity .5s;
+    background:#fff;
+}
+
+ol.slider li img{
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+ol.slider li:first-child {
+    opacity: 1; /*Mostramos el primer <li>*/
+}
+
+ol.slider li:target {
+    opacity: 1; /*Mostramos el <li> del enlace que pulsemos*/
+}
+
+.menu{
+  text-align: center;
+  margin: 40px;
+}
+
+.menu li{
+  display: inline-block;
+  text-align: center;
+}
+
+.menu li a{
+  display: inline-block;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  background-color: #FFE3B3;
+  padding: 30px;
+  width: 10px;
+  height: 20px;
+  font-size: 15px;
+  border-radius: 100%;
+}
+
+.active img {
+    width: 100%;
+    height: 100%;
+
+
+}
+
